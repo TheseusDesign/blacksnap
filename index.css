@@ -363,7 +363,7 @@ section#gallery {
     }
 
     a {
-        color: var(--main-color-light);
+        color: var(--main-color-light)!important;
         font-size: 20px;
     }
 }

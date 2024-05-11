@@ -234,6 +234,8 @@ button {
     margin: auto;
     font-family: "Kumbh Sans", sans-serif;
     opacity: .9;
+    border: none;
+    border-radius: 3px;
 
     &:hover{
         opacity:1;
