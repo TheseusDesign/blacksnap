@@ -227,8 +227,13 @@ footer {
 button {
     display: flex;
     padding: .5rem 1rem;
-    width: fit-content;
     margin: auto;
+    font-family: "Kumbh Sans", sans-serif;
+    opacity: .9;
+
+    &:hover{
+        opacity:1;
+    }
 }
 
 div#connection {
@@ -364,6 +369,7 @@ div#connection {
                         }
                     }
                 }
+
             }
         }
 
