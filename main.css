@@ -251,13 +251,13 @@ div#connection {
 
     & .container {
         max-width: 90rem;
-        width: 70%;
+        width: 85%;
         min-width: 320px;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
         background-color: var(--main-color-dark);
-        max-height: 85vh;
+        max-height: 65vh;
         overflow-x: hidden;
         overflow-y: auto;
         color: var(--main-color-light);
