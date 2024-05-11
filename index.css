@@ -15,9 +15,8 @@ header {
     display: flex;
     flex-direction: column;
     height: 75vh;
-    background: url(Assets/Background/home_index.jpg);
-    background-size: cover;
-    background-position: 45% 85%;
+    background: url(Assets/Background/home_index.jpg) no-repeat;
+    background-position: 60% 85%;
     color: var(--main-color-light);
     justify-content: center;
     align-items: center;
