@@ -375,6 +375,12 @@ div#connection {
                     }
                 }
 
+                & button{
+                    font-family: "Kumbh Sans", sans-serif;
+                    color: var(--main-color-dark);
+                    font-size: 1.5rem;
+                }
+
             }
         }
 
