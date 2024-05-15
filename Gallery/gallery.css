@@ -141,6 +141,7 @@ header {
             top: 65px;
             height: fit-content;
             position: sticky;
+            border-right: #aaa solid 1px;
 
             &>li {
                 width: 100%;
