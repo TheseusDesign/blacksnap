@@ -34,6 +34,14 @@ function createSelection(destination) {
 // Pieces
 let photos = [
     {
+        name: "Micah",
+        thumbnail: "Gallery/imgs/micah/micah_v3_3.jpg",
+        date: "",
+        tags: "Fashion Photography",
+        link: "Gallery/micah.html",
+        color: "green"
+    },
+    {
         name: "Embracing the Challenge",
         thumbnail: "Gallery/imgs/embracing_challenge/ec05.jpg",
         date: "",
