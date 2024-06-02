@@ -354,7 +354,6 @@ section#gallery {
 
         & img {
             background-color: grey;
-            min-width: 300px;
             aspect-ratio: 4/3;
             width: 25%;
             flex: 1;
@@ -364,8 +363,14 @@ section#gallery {
     }
 
     a {
-        color: var(--main-color-light)!important;
+        color: var(--main-color-light) !important;
         font-size: 20px;
+    }
+}
+
+@media (max-width:1512px) {
+    section#gallery img{
+        min-width: 300px;
     }
 }
 
@@ -410,7 +415,7 @@ section#gallery {
         border: white solid 1rem;
     }
 
-    
+
     header h1 {
         font-size: 42px;
         text-shadow: 3px 3px 15px rgba(18, 23, 21, .8);
