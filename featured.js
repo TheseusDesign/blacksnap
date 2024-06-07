@@ -92,7 +92,7 @@ class featuredArt {
 
     create() {
         // Create Scene
-        this.scene.innerHTML =`<img src="${this.thumbnail}" alt=""><div><h3>${this.name}</h3><p>${this.tag}</p><p>${this.date}</p><a href="${this.link}">View More</a></div>`
+        this.scene.innerHTML =`<a href="${this.link}"><img src="${this.thumbnail}" alt=""></a><div><h3>${this.name}</h3><p>${this.tag}</p><p>${this.date}</p><a href="${this.link}">View More</a></div>`
         this.scene.setAttribute('role', `tabpanel`)
         this.scene.setAttribute('data-tab-position', `${this.position}`)
         targetDiv.querySelector('.showcase').appendChild(this.scene)
