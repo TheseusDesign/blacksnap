@@ -50,11 +50,11 @@ let photos = [
         color: "green"
     },
     {
-        name: "Ignite",
-        thumbnail: "Gallery/imgs/destiny-lashon-chochran_fashion-show/dlc_fashion3.jpg",
+        name: "Destiny",
+        thumbnail: "Gallery/imgs/destiny-lashon-chochran_combined/image.jpg",
         date: "",
         tags: "Fashion Photography",
-        link: "Gallery/ignite.html",
+        link: "Gallery/destiny.html",
         color: "green"
     },
     {
