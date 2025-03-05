@@ -27,7 +27,7 @@ data = [{
     ],
 },
 {
-    'name': 'Pricness Frenxh',
+    'name': 'Princess Frenxh',
     'categories': 'Modeling Photoshoot',
     'link': 'Gallery/princess.html',
     'date': '3.8.24',
