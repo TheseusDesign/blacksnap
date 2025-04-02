@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FLQBCKTSY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-3FLQBCKTSY');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../Assets/favicon.ico">
@@ -65,7 +74,14 @@
                 <a href="../about.html">About</a>
             </li>
             <li>
-                <button class="connect" data-openButton="true" type="button" title="Let's Connect">Connect</button>
+                                <!-- <button class="connect" data-openButton="true" type="button" title="Let's Connect">Connect</button> -->
+                <!-- Calendly link widget begin -->
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"
+                    async></script>
+                <a href=""
+                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/blacksnap28'});return false;">Connect</a>
+                <!-- Calendly link widget end -->
             </li>
         </ul>
 
@@ -147,7 +163,7 @@
             Don't fear the light within. May it ignite the Sacred Flame in your soul.
         </p>
     </section>
-    <section id="display" gallerytype="1" >
+    <section id="display" gallerytype="1">
         <div class="container">
             <img src="imgs/destiny-lashon-chochran_combined/image 0.jpg" alt="">
             <img src="imgs/destiny-lashon-chochran_combined/image 1.jpg" alt="">

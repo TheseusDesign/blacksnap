@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FLQBCKTSY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-3FLQBCKTSY');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../Assets/favicon.ico">
@@ -19,8 +28,8 @@
     <div id="onload" style="background-color: var(--main-color-light);">
         <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
             type="module"></script>
-        <dotlottie-player src="https://lottie.host/2ad0f941-9caf-488a-999e-ce295d9a8077/GYWPiTyemG.json" background="transparent" speed="1" direction="1"
-            playMode="bounce" loop autoplay></dotlottie-player>
+        <dotlottie-player src="https://lottie.host/2ad0f941-9caf-488a-999e-ce295d9a8077/GYWPiTyemG.json"
+            background="transparent" speed="1" direction="1" playMode="bounce" loop autoplay></dotlottie-player>
     </div>
 
     <nav>
@@ -64,7 +73,14 @@
                 <a href="../about.html">About</a>
             </li>
             <li>
-                <button class="connect" data-openButton="true" type="button" title="Let's Connect">Connect</button>
+                                <!-- <button class="connect" data-openButton="true" type="button" title="Let's Connect">Connect</button> -->
+                <!-- Calendly link widget begin -->
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"
+                    async></script>
+                <a href=""
+                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/blacksnap28'});return false;">Connect</a>
+                <!-- Calendly link widget end -->
             </li>
         </ul>
 
@@ -88,8 +104,10 @@
         <div class="container">
             <button id="modalexit">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 122 122" fill="none">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.1421 0.85791L0.999975 15L47 61L0.93396 107.066L15.0761 121.208L61.1421 75.1422L107.066 121.066L121.208 106.924L75.2842 61L121.142 15.1422L107 1.00005L61.1421 46.8579L15.1421 0.85791Z" fill="white"/>
-                  </svg>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M15.1421 0.85791L0.999975 15L47 61L0.93396 107.066L15.0761 121.208L61.1421 75.1422L107.066 121.066L121.208 106.924L75.2842 61L121.142 15.1422L107 1.00005L61.1421 46.8579L15.1421 0.85791Z"
+                        fill="white" />
+                </svg>
             </button>
             <img src="../Assets/Connect/BlackSnap.png" alt="">
             <div class="form">
@@ -196,7 +214,7 @@
                         <img src="imgs/micah/micah_v3_5.jpg" style="object-position: top;" alt="">
                     </a>
                 </div>
-                <a href="micah.html" >View More</a>
+                <a href="micah.html">View More</a>
             </div>
             <div class="tabpanel" role="tabpanel" data-tab-position="1">
                 <h3>Embracing the Challenge</h3>
@@ -216,7 +234,7 @@
                         <img src="imgs/embracing_challenge/ec01.jpg" style="object-position: top;" alt="">
                     </a>
                 </div>
-                <a href="embracing-challenge.html" >View More</a>
+                <a href="embracing-challenge.html">View More</a>
             </div>
 
             <div class="tabpanel" role="tabpanel" data-tab-position="2">
@@ -240,7 +258,7 @@
                         <img src="imgs/kleep/kleep4.jpg" style="object-position: top;" alt="">
                     </a>
                 </div>
-                <a href="kleepstyle.html" >View More</a>
+                <a href="kleepstyle.html">View More</a>
             </div>
 
             <div class="tabpanel" role="tabpanel" data-tab-position="3">
@@ -261,7 +279,7 @@
                         <img src="imgs/bags/bags8.jpg" alt="">
                     </a>
                 </div>
-                <a href="bags.html" >View More</a>
+                <a href="bags.html">View More</a>
             </div>
 
             <div class="tabpanel" role="tabpanel" data-tab-position="4">
@@ -285,9 +303,9 @@
                         <img src="imgs/princess/princess7.jpg" style="object-position: top;" alt="">
                     </a>
                 </div>
-                <a href="princess.html" >View More</a>
+                <a href="princess.html">View More</a>
             </div>
-            
+
 
             <div class="tabpanel" role="tabpanel" data-tab-position="5">
                 <h3>Destiny</h3>
@@ -304,10 +322,11 @@
                         <img src="imgs/destiny-lashon-chochran_combined/image 3.jpg" alt="">
                     </a>
                     <a href="destiny.html">
-                        <img src="imgs/destiny-lashon-chochran_combined/image 4.jpg" style="object-position: top;" alt="">
+                        <img src="imgs/destiny-lashon-chochran_combined/image 4.jpg" style="object-position: top;"
+                            alt="">
                     </a>
                 </div>
-                <a href="destiny.html" >View More</a>
+                <a href="destiny.html">View More</a>
             </div>
 
             <div class="tabpanel" role="tabpanel" data-tab-position="6">
@@ -328,7 +347,7 @@
                         <img src="imgs/tor/tor4.jpg" style="object-position: top;" alt="">
                     </a>
                 </div>
-                <a href="tor-birthday.html" >View More</a>
+                <a href="tor-birthday.html">View More</a>
             </div>
         </div>
     </section>
